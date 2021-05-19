@@ -1,0 +1,272 @@
+   *{
+        padding:0px;
+        margin: 0px;
+    }
+    *{
+        box-sizing:border-box;
+    }
+     .m
+	{
+	background-color:#c1bec7;
+	position:sticky;
+	top:0px;
+	word-wrap:break-word;
+	}
+
+  .navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #808080;
+}
+   /* body*/
+    
+
+/*footer*/
+.rr{
+        background-color:#bbb66b;
+      }
+      .m
+    {
+    background-color:white;
+    position:sticky;
+    top:0px;
+    }
+    
+.c{
+  
+    background-color:gray;
+    color:black;  
+}
+   /*.a{
+    border:2px solid red;
+   }
+ */
+
+ .d
+    {
+    background-image:url("img/wall.jpg");
+    height:100%;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+   
+    background-size:cover;
+    }
+    .achive{
+      padding:200px;
+
+    }
+
+.e{
+  background-color:#e8eafa;
+  justify-content: center;
+  padding-left:150px; 
+}
+
+.f{
+  padding:50px;
+}
+.dd{
+  padding:50px;
+}
+
+.cd {
+  position: relative;
+  width: 100%;
+}
+.ff{
+  margin-right:100px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #e8eafa ;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.cd:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+ul#menu li {
+  display:inline;
+} 
+
+.back{
+ background-image:url("img/blue.jpg");
+    height:100%;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+   
+    background-size:cover;
+}
+
+.z{
+    border:0.5px solid #939694;
+   }
+   .g{
+    background-color:#e8eafa;
+     padding:30px;
+
+   }
+
+.media{
+  background-color:white;
+  border-radius:10px;
+}
+
+
+
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.team{
+  background-color: #f0f0f0;
+
+}
+  .car{
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card{
+  border-radius: 5%;
+}
+
+.w img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.zoom {
+  padding: 30px;
+ 
+  transition: transform .2s;
+  width: auto;
+  height:auto;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(0.5); 
+}
+.mar {
+  padding: 30px;
+ 
+  transition: transform .5s;
+  width: auto;
+  height:auto;
+  margin: 0 auto;
+}
+
+.mar:hover {
+  -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(0.0); /* Safari 3-8 */
+  transform: scale(1.2);
+
+}
+
+
